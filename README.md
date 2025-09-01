@@ -1,48 +1,43 @@
-Student Management CRUD — Azure DevOps & Azure SQL
+azure-pipelines-overview.png → Pipelines overview
 
-## 📌 Overview
-An end-to-end **Student Management System**:
-- **Frontend**: React.js  
-- **Backend**: .NET Core Web API  
-- **Database**: Azure SQL  
-- **CI/CD**: Azure DevOps Pipelines  
+azure-release-pipeline.png → Release pipeline
 
-It supports creating, reading, updating, and deleting student records, with automated build & release pipelines.
+backend-api-response.png → Backend API JSON response
 
----
+backend-repo-structure.png → Backend repo structure
 
-## 📂 Repository Structure
-- **main** → Documentation & screenshots  
-- **frontend** → React.js app (UI)  
-- **backend** → .NET Core Web API  
+frontend-repo-structure.png → Frontend repo structure
 
----
+student-ui-final-output.png → Final Student UI
 
-## 🖼️ Final Output
-Student Information System UI where you can add, update, and delete records:
+##  CI/CD Pipelines
 
-![Final Student UI](docs/images/frontend-student-ui.png)
+**Pipelines overview**  
+![Pipelines Overview](images/azure-pipelines-overview.png)
+
+**Release pipeline**  
+![Release Pipeline](images/azure-release-pipeline.png)
 
 ---
 
-## 🔗 Branches
-- [Frontend Branch](../../tree/frontend) → React.js source code  
-- [Backend Branch](../../tree/backend) → .NET Core Web API source code  
-- [Docs](docs/README.md) → Problem statement, objectives, and screenshots  
+## 4) Backend API (sample response)
+
+**Students API JSON**  
+![Backend API Response](images/backend-api-response.png)
 
 ---
 
-## 🚀 Features
-- CRUD operations for student data  
-- Automated CI/CD with Azure DevOps  
-- Branch policies and deployment gates for reliability  
-- Optimized SQL queries for faster performance  
-- Azure Monitor & Log Analytics integration for observability  
+## 5) Frontend (final output)
+
+**Student Information System UI** — add, update, and delete records.  
+![Final Student UI](images/student-ui-final-output.png)
 
 ---
 
-## 🏆 Expected Benefits
-- Faster release cycles with CI/CD  
-- Reduced failed deployments via gates & branch policies  
-- Lower downtime incidents with proactive monitoring  
-- Efficient and scalable student data management  
+## 6) Repo Structures
+
+**Backend repo**  
+![Backend Repo Structure](images/backend-repo-structure.png)
+
+**Frontend repo**  
+![Frontend Repo Structure](images/frontend-repo-structure.png)
